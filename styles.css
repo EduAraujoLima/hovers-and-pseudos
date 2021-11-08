@@ -22,14 +22,14 @@ body {
 }
 
 .card:hover::after {
-  transition: all 1s ease-out;
+  transition: all 1s ease-in;
   transform: scale(1.2) rotate(10deg);
   filter: blur(5px);
 }
 
 .card:hover::before {
   content: 'Pacotes de viagem';
-  transition: all 1s ease-out;
+  transition: all 1s ease-in;
   z-index: 99;
   position: absolute;
   height: 100%;
